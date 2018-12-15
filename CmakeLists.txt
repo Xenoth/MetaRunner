@@ -1,0 +1,9 @@
+# CMakeLists for CLion - Not usefull for build
+cmake_minimum_required(VERSION 3.8)
+project(RUNNER_GAMEBUINO)
+
+set(CMAKE_CXX_STANDARD 11)
+
+set(SOURCE_FILES MetaRunner/MetaRunner.ino MetaRunner/GameController.h MetaRunner/UserController.h MetaRunner/UserController.cpp
+        MetaRunner/Player.h MetaRunner/Obstacle.h MetaRunner/AbstractDynamic.h MetaRunner/AbstractStatic.h MetaRunner/Physics.h)
+add_executable(RUNNER_GAMEBUINO ${SOURCE_FILES})
