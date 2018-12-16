@@ -5,5 +5,5 @@ project(RUNNER_GAMEBUINO)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES MetaRunner/MetaRunner.ino MetaRunner/GameController.h MetaRunner/UserController.h MetaRunner/UserController.cpp
-        MetaRunner/Player.h MetaRunner/Obstacle.h MetaRunner/AbstractDynamic.h MetaRunner/AbstractStatic.h MetaRunner/Physics.h)
+        MetaRunner/Player.h MetaRunner/Obstacle.h MetaRunner/AbstractDynamic.h MetaRunner/AbstractStatic.h MetaRunner/Physics.h MetaRunner/Core/Vector2.hpp MetaRunner/Core/Vector2.cpp MetaRunner/Physics/Engine.cpp MetaRunner/Physics/Engine.h MetaRunner/Core/Tile.cpp MetaRunner/Core/Tile.h MetaRunner/Physics/AbstractDynamic.cpp MetaRunner/Physics/AbstractDynamic.h MetaRunner/Physics/AbstractStatic.cpp MetaRunner/Physics/AbstractStatic.h MetaRunner/Physics/AbstractScene.cpp MetaRunner/Physics/AbstractScene.h MetaRunner/Physics/DynamicEnum.h MetaRunner/Utils/ObstacleFactory.cpp MetaRunner/Utils/ObstacleFactory.h MetaRunner/GameModel/Obstacle.cpp MetaRunner/GameModel/Obstacle.h MetaRunner/GameModel/Floor.cpp MetaRunner/GameModel/Floor.h MetaRunner/GameModel/Player.cpp MetaRunner/GameModel/Player.h MetaRunner/GameModel/Scene1.cpp MetaRunner/GameModel/Scene1.h)
 add_executable(RUNNER_GAMEBUINO ${SOURCE_FILES})

@@ -13,7 +13,7 @@ class AbstractDynamic {
   float velocityX;
   float velocityY;
 
-  virtual void onInteract();
+  virtual void onInteract(AbstractDynamic);
 
   AbstractDynamic(float positionX, float positionY, uint8_t width, uint8_t height) : AbstractDynamic(positionX, positionY, width, height, 0.0, 0.0)
   {  }
